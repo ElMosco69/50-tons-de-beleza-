@@ -139,3 +139,41 @@ header, #actions {
     background-color: #aa1667;
     border-color: #aa1667;
 }
+
+
+
+    .siteFooter {
+        bottom: 0;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        max-width: 1100px;
+        text-align: center;
+        background-color: #261219;
+        color: #e4d9e9;
+        padding: 2rem 0 1.25rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        margin-top: 3rem;
+
+    }
+
+    .siteFooter h5,
+    .siteFooter h6 {
+        color: #ffffff;
+    }
+
+    .siteFooter .footer-link {
+        color: #d8c9dc;
+        text-decoration: none;
+    }
+
+    .siteFooter .footer-link:hover,
+    .siteFooter .footer-link:focus {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    .siteFooter .small {
+        color: #b9a5be;
+    }
