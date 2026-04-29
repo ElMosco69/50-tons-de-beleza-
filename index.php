@@ -8,14 +8,13 @@
 <br>
 <h2>Seja bem vindo, venha conhecer nossos serviços!</h2>
 <hr>
+<div class="painel">MAMA UHHH JUST KILLIED A MAN]
+	<div>
+		
+	</div>
+</div>
 
 <?php if ($db) : ?>
-
-
-
-	
-
-
 	<?php if (function_exists('is_admin') && is_admin()) : ?>
 
 	<?php endif; ?>
