@@ -1,9 +1,41 @@
             <hr>
         </main> <!-- /container -->
 
-        <footer class="container">
-            <?php $data=new DateTime ("now",  new DateTimeZone("America/Sao_Paulo"))?>
-            <p>&copy;2025 á <?php echo $data ->format("Y"); ?> - Chicão e Jeffrey Epstein <i class="fa-solid fa-person-running"></i><i class="fa-solid fa-baby"></i>
+        <footer class="siteFooter">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-4">
+                        <img src="<?php echo BASEURL; ?>img/Logo_50tons.png" alt="Logo 50 Tons de Beleza" class="mb-3" style="width: 150px;">
+                        <p class="small text-muted mb-0">Beleza, bem-estar e cuidados personalizados em um só lugar.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h6 class="mb-3">Horário</h6>
+                            <ul class="list-unstyled small mb-0">
+                                <li>Ter a Dom: 10h - 15h</li
+                                <li>Segunda-Feira: Fechado</li>
+                            </ul>
+                        <h6 class="mb-3">Contato</h6>
+                        <ul class="list-unstyled small mb-0">
+                            <li><a class="footer-link" href="tel:+550000000000">(15) 99629-5534</a></li>
+                            <li><a class="footer-link" href="mailto:contato@50tonsdebeleza.com.br">contato@50tonsdebeleza.com.br</a></li>
+                            <li class="mt-2">
+                                <a class="footer-link me-3" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                <a class="footer-link" href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-secondary my-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0 small text-muted">&copy; 2026 50 Tons de Beleza. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a class="footer-link" href="#topo">Voltar<i class="fa-solid fa-caret-up"></i></a>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <script src="<?php echo BASEURL; ?>js/jquery-3.7.1.min.js"></script>   
