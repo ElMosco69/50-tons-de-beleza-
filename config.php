@@ -23,7 +23,7 @@
 
 	/** caminho no server para o sistema **/
 	if (!defined('BASEURL'))
-		define('BASEURL', '/Crud_funcionarios/');
+		define('BASEURL', '/50-tons-de-beleza-/');
 
 	/** caminho do arquivo de banco de dados **/
 	if (!defined('DBAPI'))
