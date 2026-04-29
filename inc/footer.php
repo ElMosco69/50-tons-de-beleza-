@@ -12,7 +12,7 @@
                     <div class="col-md-4">
                         <h6 class="mb-3">Horário</h6>
                             <ul class="list-unstyled small mb-0">
-                                <li>Ter a Dom: 10h - 15h</li
+                                <li>Ter a Dom: 10h - 15h</li>
                                 <li>Segunda-Feira: Fechado</li>
                             </ul>
                         <h6 class="mb-3">Contato</h6>
