@@ -6,7 +6,7 @@
                 <div class="row gy-4">
                     <div class="col-md-4">
                         <img src="<?php echo BASEURL; ?>img/Logo_50tons.png" alt="Logo 50 Tons de Beleza" class="mb-3" style="width: 150px;">
-                        <p class="small text-muted mb-0">Beleza, bem-estar e cuidados personalizados em um só lugar.</p>
+                        <p class="small mb-0">Beleza, bem-estar e cuidados personalizados em um só lugar.</p>
                     </div>
 
                     <div class="col-md-4">
@@ -29,7 +29,7 @@
                 <hr class="border-secondary my-4">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0 small text-muted">&copy; 2026 50 Tons de Beleza. Todos os direitos reservados.</p>
+                        <p class="mb-0 small">&copy; 2026 50 Tons de Beleza. Todos os direitos reservados.</p>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <a class="footer-link" href="#topo">Voltar<i class="fa-solid fa-caret-up"></i></a>
