@@ -147,9 +147,7 @@ header, #actions {
 
 .siteFooter {
     bottom: 0;
-
     left: 50%;
-
     width: 100%;
     max-width: 100%;
     text-align: center;
@@ -196,6 +194,10 @@ header, #actions {
     display: flex;
     justify-content: space-evenly;
 }   
+.painelFotooto{
+    width: 50%;
+    height: 50%;
+}
 .arrow{
     background-color: #261219;
     border-radius: 50% ;
