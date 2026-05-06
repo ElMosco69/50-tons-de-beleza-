@@ -157,8 +157,7 @@ header, #actions {
     color: #e4d9e9;
     padding: 2rem 0 1.25rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    margin-top: 3rem;
-        display: block;
+    display: block;
 
 }
 
@@ -185,6 +184,8 @@ header, #actions {
     padding-right: relative;
     border: solid;
     border-width: 25px;
+    display: flex;
+    justify-content: space-evenly;
     width: relative;
     height: 700px;
     border-color: #261219;
