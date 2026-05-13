@@ -1,0 +1,208 @@
+body{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: inherit;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: #ffffff;
+}
+
+.btn-dark{
+    background-color: #660000;
+}
+
+.btn-secondary{
+    background-color:#810000;
+    color: #ffffff;
+    border-color: #ffffff
+}
+.btn-secondary:hover{
+    background-color: rgb(213, 74, 74);
+    color: #000000;
+    border-color: #ffffff
+}
+
+.btn-light{
+    background-color: #810000;
+    color: #ffffff;
+    border-color: #ffffff
+}
+
+.btn-light:hover{
+    background-color: rgb(213, 74, 74);
+    color: #000000;
+    border-color: #ffffff
+}
+
+nav{
+    background-color: #261219;
+}
+
+#fotoindex {
+    width: 100px;
+}
+
+ .btn-light {
+          color: #FFFFFF;
+    background-color: #99999999;
+    border-color: #99999999;
+}
+.btn-light:hover {
+    color: #FFFFFF;
+    background-color: #666666;
+    border-color: #666666;
+}
+header, #actions {
+    margin-top: 10px;
+}
+.modal-content {
+    background-color: #6D0708 !important;
+    color: #ffffff !important;
+}
+.modal-header, .modal-footer {
+    border-color: rgba(255,255,255,0.08);
+}
+.modal .btn-close {
+    filter: invert(1) brightness(1.5);
+}
+.nav-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* ── Desktop ── */
+@media (min-width: 768px) {
+.navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* Collapse vira flex com space-between */
+.navbar-collapse {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Esquerda: Agendamento + Produtos */
+.nav-left {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;                  /* ocupa metade esquerda */
+    justify-content: flex-end;
+    padding-right: 100px;     /* recua da logo (~metade da logo) */
+}
+
+/* Direita: Sobre + Carrinho + Cadastro/Login */
+.nav-right {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;                  /* ocupa metade direita */
+    justify-content: flex-start;
+    padding-left: 100px;      /* afasta da logo (~metade da logo) */
+}
+
+.nav-mobile {
+    display: none !important;
+}
+}
+
+/* ── Mobile ── */
+@media (max-width: 767px) {
+.navbar .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-left, .nav-right {
+    display: none !important;
+}
+.nav-mobile {
+    display: flex !important;
+    flex-direction: column;
+}
+}
+
+.btn-danger {
+    background-color: #aa1667;
+    border-color: #aa1667;
+}
+.btn-primary{
+    background-color: #aa1667;
+    border-color: #aa1667 ;
+}
+
+
+.siteFooter {
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    background-color: #261219;
+    color: #e4d9e9;
+    padding: 2rem 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: block;
+
+}
+
+.siteFooter h5,
+.siteFooter h6 {
+    color: #ffffff;
+}
+
+.siteFooter .footer-link {
+    color: #d8c9dc;
+    text-decoration: none;
+}
+
+.siteFooter .footer-link:hover,
+.siteFooter .footer-link:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.siteFooter .small {
+    color: #b9a5be;
+}
+.painel{
+    padding-right: relative;
+    border: solid;
+    border-width: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: relative;
+    height: 700px;
+    border-color: #261219;
+    background-color: #fdfef3;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}   
+.painelFotooto{
+    width: 50%;
+    height: 50%;
+}
+.arrow{
+    background-color: #261219;
+    border-radius: 50% ;
+    border-color: #261219;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
