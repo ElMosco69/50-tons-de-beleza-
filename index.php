@@ -6,8 +6,10 @@
     $db = open_database(); 
 ?>
 		<br>
+		<br>
 		<h2>Seja bem vindo, venha conhecer nossos serviços!</h2>
 		<hr>
+		<br>
 	
 		<!-- é aqui que começa a parte do carrosel -->
 		<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
@@ -97,6 +99,9 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<hr>
+			<br>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
 				<span  class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
 				<span class="visually-hidden">Previous</span>
@@ -110,7 +115,16 @@
 		<!--  aqui é a painel das notícias IRADAS feijoada -->
 		<div class="painel">
 			<div>
-				
+				<div class="container text-center">
+					<div class="row bora ">
+						<div class="col-8">
+ 						<p>ABULEB</p>
+						</div>
+						<div class="col-4">
+	
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 <?php if ($db) : ?>
