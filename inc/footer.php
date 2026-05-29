@@ -1,4 +1,5 @@
             <hr>
+            <br><br><br>
         </main> <!-- /container -->
 
         <footer class="siteFooter">
@@ -32,7 +33,7 @@
                         <p class="mb-0 small">&copy; 2026 50 Tons de Beleza. Todos os direitos reservados.</p>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <a class="footer-link" href="#topo">Voltar<i class="fa-solid fa-caret-up"></i></a>
+                        <a class="footer-link back-to-top" href="#topo">Voltar<i class="fa-solid fa-caret-up"></i></a>
                     </div>
                 </div>
             </div>

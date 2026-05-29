@@ -4,6 +4,7 @@
 	if (!isset($_SESSION)) session_start();
     include(HEADER_TEMPLATE); 
     $db = open_database(); 
+	include "functions.php";
 ?>
 		<br>
 		<br>
@@ -17,11 +18,11 @@
 				<div class="carousel-item active">
 					<div class="cards-wrapper">
  						<div class="card" style="width: 18rem;">
-							<img src="<?php echo BASEURL; ?>img/house.png" class="card-img-top" alt="...">
+							<img src="<?php echo BASEURL; ?>img/manicure.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
+								<h5 class="card-title">Manicure</h5>
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+								<a href="#" class="btn btn-primary">Agende já!</a>
 							</div>
 						</div>
 						<div class="card" style="width: 18rem;">
@@ -114,14 +115,32 @@
 
 		<!--  aqui é a painel das notícias IRADAS feijoada -->
 		<div class="painel">
-			<div>
-				<div class="container text-center">
-					<div class="row bora ">
-						<div class="col-8">
- 						<p>ABULEB</p>
+			<div class="container">
+				<div class="row bora">
+					<div class="col-8 calma a">
+ 						<div class="calabreso aviso-card">
+							<div class="row align-items-center g-3">
+								<div class="col-auto aviso-thumb">
+									<img class="img-fluid rounded" src="<?php echo BASEURL; ?>img/aviso1.jpg" alt="Aviso">
+								</div>
+								<div class="col aviso-body">
+									<p class="aviso-text mb-0">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+										Minus a at deserunt asperiores AKAASJDIJASIDJASIDASUIDSUIADHUI
+										adksdkakdskdsakdkskdkdkdskdkkdksdkkdkdkkdkkkd
+										kdskdaskdakdokdsalodkaosdkaokdaioskdioaskioskdioakdioik
+										sdkiskdaokdiosakdiodkodkoadsasidiidioaisd
+										ASFHUISAHDSFAUIH.
+									</p>
+								</div>
+							</div>
 						</div>
-						<div class="col-4">
-	
+					</div>
+					<div class="col-4 ben">
+						<div class ="10">
+							<h3> 
+ 								TODOS
+							</h3>
 						</div>
 					</div>
 				</div>

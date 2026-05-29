@@ -12,3 +12,11 @@ $("#delete-modal").on("show.bs.modal", function (event) {
     modal.find(".modal-body").text("Deseja mesmo excluir o cliente " + id + "?");
     modal.find("#confirm").attr("href", "delete.php?id=" + id);
 });
+
+// Back-to-top: smooth scroll when clicking footer link
+$(function(){
+    $(document).on('click', '.back-to-top', function(e){
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 400);
+    });
+});

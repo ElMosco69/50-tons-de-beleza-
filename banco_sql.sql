@@ -80,5 +80,19 @@ VALUES
 ('Mary Zica','mazi','786098767869','user'),
 ('Fugiru Nakombi','fugina','623485634753234','user');
 
+------------------------------TABELA PARA AVISOS-FEITA PARA TESTE- GIOVANNA ESTEVE AQUI-
+
+CREATE TABLE IF NOT EXISTS `avisos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `titulo` varchar(255) NOT NULL,
+  `descricao` text NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  `foto` varchar(50)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `avisos` (`titulo`, `descricao`, `created`, `modified`, `foto`) VALUES
+('Teste de Aviso', 'Este é um aviso de teste para verificar a funcionalidade de avisos no sistema.', '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
+
 COMMIT;
 

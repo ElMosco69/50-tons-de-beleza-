@@ -179,12 +179,10 @@ header, #actions {
     color: #b9a5be;
 }
 .painel{
-    padding-right: relative;
     border: solid;
     border-width: 25px;
     display: flex;
-    justify-content: space-evenly;
-    width: relative;
+    justify-content: center;
     height: 700px;
     border-color: #261219;
     background-color: #fdfef3;
@@ -207,8 +205,87 @@ header, #actions {
     padding: 15px;
 }
 
+
 .bora{
-    background-color: #261219;
+    background-color: #fdfef3;
     width: 100%;
     height: 100%;
+    color: #000000;
+    margin: auto;
 }
+.calma{
+    height: 100%;
+    color: #000000;
+    padding: 25px;
+    margin: auto;
+    
+}
+.calabreso{
+    background-color: #f2efe5;
+    width: 100%;
+    color: #000000;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.aviso-card {
+    background-color: #e6dfd0;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: nowrap;
+}
+.aviso-thumb {
+    flex: 0 0 160px;
+    max-width: 160px;
+    width: 160px;
+}
+.aviso-thumb img {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    display: block;
+}
+.aviso-text {
+    font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+    line-height: 1.6;
+    color: #0e0a05;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.aviso-body{
+    flex: 1 1 0;
+    min-width: 0;
+    background-color: #cfcdb7;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+@media (max-width: 767px) {
+    .aviso-card {
+        flex-wrap: wrap;
+    }
+    .aviso-thumb {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .aviso-body {
+        flex: 0 0 100%;
+    }
+}
+
+.ben{
+    background-color: #eeedda; 
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    --bs-gutter-x: 0; !important;
+}
+
