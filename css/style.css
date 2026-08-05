@@ -279,7 +279,7 @@ header, #actions {
     overflow: scroll;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .aviso-card {
         flex-wrap: wrap;
     }
@@ -313,4 +313,14 @@ header, #actions {
 }
 .deiz{
     background-color: #f2efe5;
+}
+
+@media (max-width: 800px) {
+
+    .carousel-inner{
+     width: 300px;
+     height: 300px;
+     margin-left: 100px;
+    }
+    
 }
