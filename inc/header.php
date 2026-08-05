@@ -24,7 +24,7 @@
 
       <!-- LOGO (fora do collapse) -->
       <a class="navbar-brand mx-auto" href="<?php echo BASEURL; ?>">
-        <img src="<?php echo IMAGE_TEMPLATE; ?>" alt="Logo" width="auto" height="70">
+        <img src="<?php echo IMAGE_TEMPLATE; ?>" alt="Logo" width="150" height="auto">
       </a>
 
       <!-- Toggler -->
@@ -46,10 +46,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Agendamento</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Produtos</a>
-          </li>
-
+ 
            <li class="nav-item">
             <a class="nav-link" href="#">Sobre</a>
           </li>
@@ -59,11 +56,17 @@
         <!-- ── Links DIREITA (desktop) ── -->
         <ul class="navbar-nav nav-right">
          
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-cart-shopping"></i> Carrinho
-            </a>
-          </li>
+       <div class="dropdown">
+          <a class=" nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            Produtos
+          </a>
+          
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="produtos/index.php">Produtos</a></li>
+            <li><a class="dropdown-item" href="#">Carrinho  <i class="fa-solid fa-cart-shopping"></i></a></li>
+          </ul>
+        </div>
+
           <li class="nav-item">
             <button class="btn btn-outline-light" type="submit">Cadastro</button>
           </li>

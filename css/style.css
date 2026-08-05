@@ -41,6 +41,14 @@ nav{
     background-color: #261219;
 }
 
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2;
+}
+
 #fotoindex {
     width: 100px;
 }
@@ -76,6 +84,8 @@ header, #actions {
     margin-right: 8px;
     vertical-align: middle;
 }
+
+
 
 /* ── Desktop ── */
 @media (min-width: 768px) {
