@@ -201,7 +201,24 @@ header, #actions {
 .cards-wrapper{
     display: flex;
     justify-content: space-evenly;
-}   
+}
+.row.prod {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.row.prod > .col-md-4 {
+    flex: 0 0 auto;
+    width: 300px;
+}
+.prod-search {
+    max-width: 420px;
+    width: 100%;
+}
+.prod-search .form-control {
+    min-width: 160px;
+}
 .painelFotooto{
     width: 50%;
     height: 50%;
@@ -323,4 +340,25 @@ header, #actions {
      margin-left: 100px;
     }
     
+}
+
+.produ{
+    width: 100%;
+}
+
+.leble{
+    color:#261219;
+}
+
+.botao-fixo {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 30px;          
+  font-weight: bold;        
+  padding: 18px 32px;     
+  
 }

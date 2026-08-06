@@ -37,6 +37,8 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
         </footer>
 
         <script src="<?php echo BASEURL; ?>js/jquery-3.7.1.min.js"></script>   

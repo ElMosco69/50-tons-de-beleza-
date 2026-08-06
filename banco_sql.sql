@@ -80,6 +80,27 @@ VALUES
 ('Mary Zica','mazi','786098767869','user'),
 ('Fugiru Nakombi','fugina','623485634753234','user');
 
+-------PRODUTOS-DA--GIGI  
+
+CREATE TABLE IF NOT EXISTS `produtos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `nome` varchar(255) NOT NULL,
+  `descricao` text NOT NULL,
+  `preco` decimal(10,2) NOT NULL,
+  `quantidade` int(11) NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  `Imagem` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `produtos` (`nome`, `descricao`, `preco`, `quantidade`, `created`, `modified`, `Imagem`) VALUES
+('Produto 1', 'Descrição do Produto 1', 19.99, 10, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
+('Produto 2', 'Descrição do Produto 2', 29.99, 5, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
+('Produto 3', 'Descrição do Produto 3', 9.99, 20, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
+('Produto 4', 'Descrição do Produto 4', 14.99, 15, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
+('Produto 5', 'Descrição do Produto 5', 24.99, 8, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
+
+
 ------------------------------TABELA PARA AVISOS-FEITA PARA TESTE- GIOVANNA ESTEVE AQUI-
 
 CREATE TABLE IF NOT EXISTS `avisos` (
