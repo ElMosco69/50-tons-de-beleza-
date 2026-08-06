@@ -55,35 +55,36 @@
 
         <!-- ── Links DIREITA (desktop) ── -->
         <ul class="navbar-nav nav-right">
-         
-       <div class="dropdown">
-          <a class=" nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-            Produtos
-          </a>
           
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="produtos/index.php">Produtos</a></li>
-            <li><a class="dropdown-item" href="#">Carrinho  <i class="fa-solid fa-cart-shopping"></i></a></li>
-          </ul>
-        </div>
+        <div class="dropdown">
+            <a class=" nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              Produtos
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="produtos/index.php">Produtos</a></li>
+              <li><a class="dropdown-item" href="#">Carrinho  <i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+          </div>
 
-          <li class="nav-item">
-            <button class="btn btn-outline-light" type="submit">Cadastro</button>
-          </li>
-          <?php if(isset($_SESSION['user'])) : ?>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2 justify-content-center"
-                href="<?php echo BASEURL; ?>inc/logout.php">
-                <img src="<?php echo $avatar_url; ?>" alt="avatar" class="nav-avatar">
-                <span><?php echo htmlspecialchars($_SESSION['nome'] ?? $_SESSION['user']); ?></span>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-              </a>
-            </li>
-          <?php else : ?>
-            <li class="nav-item">
-              <button class="btn btn-danger" href="<?php echo BASEURL; ?>inc/login.php"type="submit" >Login</button>
-            </li>
-          <?php endif; ?>
+            
+            <?php if(isset($_SESSION['user'])) : ?>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2 justify-content-center"
+                  href="<?php echo BASEURL; ?>inc/logout.php">
+                  <img src="<?php echo $avatar_url; ?>" alt="avatar" class="nav-avatar">
+                  <span><?php echo htmlspecialchars($_SESSION['nome'] ?? $_SESSION['user']); ?></span>
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </a>
+              </li>
+            <?php else : ?>
+              <li class="nav-item">
+                <a class="btn btn-outline-light" href="<?php echo BASEURL; ?>inc/cadastro.php" type="submit">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-danger" href="<?php echo BASEURL; ?>inc/login.php"type="submit" >Login</a>
+              </li>
+            <?php endif; ?>
         </ul>
 
 <!-- ── Mobile: lista vertical completa ── -->
@@ -100,15 +101,13 @@
           <?php if(isset($_SESSION['user'])) : ?>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center justify-content-center gap-2"
-                href="<?php echo BASEURL; ?>inc/logout.php">
-                <img src="<?php echo $avatar_url; ?>" alt="avatar" class="nav-avatar">
-                <span><?php echo htmlspecialchars($_SESSION['nome'] ?? $_SESSION['user']); ?></span>
+                href="<?php echo BASEURL; ?>inc/cadastro.php">
                 <i class="fa-solid fa-arrow-right-from-bracket"></i>
               </a>
             </li>
           <?php else : ?>
             <li class="nav-item">
-              <button class="btn btn-danger" href="<?php echo BASEURL; ?>inc/login.php"type="submit" >Login</button>
+              <button class="btn btn-danger" href="<?php echo BASEURL; ?>inc/login.php" type="submit" >Login</button>
             </li>
           <?php endif; ?>
         </ul>
