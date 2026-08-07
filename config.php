@@ -45,4 +45,6 @@
 	const IMAGE_TEMPLATE = BASEURL .'img/Logo_50tons.png';
 	// define('IMAGE_TEMPLATE', BASEURL . 'img/Logo_50tons.png');
 
+	const Link_Misterioso = BASEURL .'inc/rickRoolIndex/rickroll.php';
+
 ?>
