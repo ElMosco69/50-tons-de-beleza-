@@ -27,7 +27,13 @@
 		?>
 				<div class="col-md-4 mb-4">
 					<div class="card h-100">
-						<img src="<?php echo BASEURL . 'img/' . $product['imagem']; ?>" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php 
+							if($product['Imagem'] != null || $product['Imagem'] != ""):	
+						?>
+							<img src="<?php echo BASEURL . 'img/' . $product['Imagem']; ?>" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php else:?>
+							<img src="img/semimagem.png" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php endif;?>
 						<div class="card-body">
 							<h5 class="card-title"><?php echo $product['nome']; ?></h5>
 							<p class="card-text"><?php echo $product['descricao']; ?></p>
@@ -42,7 +48,6 @@
 		endif;
 		?>
 	</div>
-
 	<hr>
 
 	<h2 class="mb-4 leble">Produtos 2</h2>
@@ -57,7 +62,13 @@
 		?>
 				<div class="col-md-4 mb-4">
 					<div class="card h-100">
-						<img src="<?php echo BASEURL . 'img/' . $product['imagem']; ?>" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php 
+							if($product['Imagem'] != null || $product['Imagem'] != ""):	
+						?>
+							<img src="<?php echo BASEURL . 'img/' . $product['Imagem']; ?>" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php else:?>
+							<img src="img/semimagem.png" class="card-img-top" alt="<?php echo $product['nome']; ?>">
+						<?php endif;?>
 						<div class="card-body">
 							<h5 class="card-title"><?php echo $product['nome']; ?></h5>
 							<p class="card-text"><?php echo $product['descricao']; ?></p>
@@ -75,7 +86,7 @@
 
 </div>
 
-<button type="button" class="btn btn-primary botao-fixo" data-bs-toggle="modal" data-bs-target="#exampleModal">Finalizar compra</button>
+<button type="button" class="btn btn-danger botao-fixo" data-bs-toggle="modal" data-bs-target="#exampleModal">Finalizar compra</button>
 
 
 <?php if ($db) : ?>

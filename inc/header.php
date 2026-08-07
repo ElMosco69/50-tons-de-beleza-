@@ -62,8 +62,9 @@
             </a>
             
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="produtos/index.php">Produtos</a></li>
-              <li><a class="dropdown-item" href="#">Carrinho  <i class="fa-solid fa-cart-shopping"></i></a></li>
+              <!-- você esqueceu de colocar o BASEURL no link, ora bolas-->
+              <li><a class="dropdown-item" href="<?php echo BASEURL; ?>produtos/index.php">Produtos</a></li>
+              <li><a class="dropdown-item" href="<?php echo BASEURL; ?>#">Carrinho  <i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
           </div>
 
@@ -89,9 +90,9 @@
 
 <!-- ── Mobile: lista vertical completa ── -->
         <ul class="navbar-nav nav-mobile align-items-center gap-2 text-center w-100">
-          <li class="nav-item"><a class="nav-link" href="#">Agendamento</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo BASEURL; ?>produtos/index.php">Agendamento</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo BASEURL; ?>#">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo BASEURL; ?>#">Sobre</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <i class="fa-solid fa-cart-shopping"></i> Carrinho

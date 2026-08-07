@@ -94,10 +94,10 @@ CREATE TABLE IF NOT EXISTS `produtos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `produtos` (`nome`, `descricao`, `preco`, `quantidade`, `created`, `modified`, `Imagem`) VALUES
-('Produto 1', 'Descrição do Produto 1', 19.99, 10, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
+('Produto 1', 'Descrição do Produto 1', 19.99, 10,'2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
 ('Produto 2', 'Descrição do Produto 2', 29.99, 5, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
-('Produto 3', 'Descrição do Produto 3', 9.99, 20, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
-('Produto 4', 'Descrição do Produto 4', 14.99, 15, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
+('Produto 3', 'Descrição do Produto 3', 9.99, 20, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
+('Produto 4', 'Descrição do Produto 4', 14.99, 15, '2024-06-01 10:00:00', '2024-06-01 10:00:00', ''),
 ('Produto 5', 'Descrição do Produto 5', 24.99, 8, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
 
 

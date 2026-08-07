@@ -48,13 +48,15 @@ nav{
     font-weight: 500 !important;
     line-height: 1.2;
 }
-
+.dropdown-item, .dropdown-menu{
+    background-color: #aa1667;
+}
 #fotoindex {
     width: 100px;
 }
 
  .btn-light {
-          color: #FFFFFF;
+    color: #FFFFFF;
     background-color: #99999999;
     border-color: #99999999;
 }
@@ -360,5 +362,4 @@ header, #actions {
   font-size: 30px;          
   font-weight: bold;        
   padding: 18px 32px;     
-  
 }
