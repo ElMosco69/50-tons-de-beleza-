@@ -80,7 +80,7 @@ VALUES
 ('Mary Zica','mazi','786098767869','user'),
 ('Fugiru Nakombi','fugina','623485634753234','user');
 
--------PRODUTOS-DA--GIGI  
+-- PRODUTOS-DA--GIGI  
 
 CREATE TABLE IF NOT EXISTS `produtos` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -101,7 +101,7 @@ INSERT INTO `produtos` (`nome`, `descricao`, `preco`, `quantidade`, `created`, `
 ('Produto 5', 'Descrição do Produto 5', 24.99, 8, '2024-06-01 10:00:00', '2024-06-01 10:00:00', '');
 
 
-------------------------------TABELA PARA AVISOS-FEITA PARA TESTE- GIOVANNA ESTEVE AQUI-
+--TABELA PARA AVISOS-FEITA PARA TESTE- GIOVANNA ESTEVE AQUI-
 
 CREATE TABLE IF NOT EXISTS `avisos` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
