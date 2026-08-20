@@ -15,6 +15,8 @@
 				<div class="row bora">
 					<div>
  						<br>
+						<h1>texto</h1>
+						<br>
 						<img src="img/cintiabiscaia.png" width="25%" height="auto" alt="cintia">
 					</div>
 					<div>
