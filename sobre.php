@@ -9,55 +9,20 @@
 	
 
 		<!--  aqui é a painel das notícias IRADAS feijoada -->
-		<h1>SOBRE NÓS</h1>
+		<h1>Sobre nós</h1>
 		<div class="painel">
 			<div class="container">
 				<div class="row bora">
-					<div class="col-8 calma a">
- 						<div class="calabreso aviso-card">
-							<div class="row align-items-center g-3">
-								<div class="col-auto aviso-thumb">
-									<img class="img-fluid rounded" src="<?php echo BASEURL; ?>img/aviso1.jpg" alt="Aviso">
-								</div>
-								<div class="col aviso-body">
-									<h2>dia das pamonhas onhas</h2>
-									<p class="aviso-text mb-0">
-										A história começou
-										quando um relógio esquisito
-										Grudou no pulso dele vindo la do infinito
-										Agora tem poderes e com eles faz bonito
-										É o Ben 10
-										Se acaso encontra-lo você vai se admirar
-										Diante de seus olhos ele vai se transformar
-										Em um ser alienígina
-										Que bota pra quebrar
-										É o Ben 10
-										Com seus poderes vai combater
-										Os inimigos e vai vencer
-										Ele não foge de medo ou dor
-										Moleque muito irado
-									Seja onde for	É o Ben 10
-															A história começou
-										quando um relógio esquisito
-										Grudou no pulso dele vindo la do infinito
-										Agora tem poderes e com eles faz bonito
-										É o Ben 10
-										Se acaso encontra-lo você vai se admirar
-										Diante de seus olhos ele vai se transformar
-										Em um ser alienígina
-										Que bota pra quebrar
-										É o Ben 10
-										Com seus poderes vai combater
-										Os inimigos e vai vencer
-										Ele não foge de medo ou dor
-										Moleque muito irado
-									Seja onde for	É o Ben 10
-									</p>
-								</div>
-							</div>
-						</div>
-					
-							
+					<div>
+ 						<br>
+						<img src="img/cintiabiscaia.png" width="25%" height="auto" alt="cintia">
+					</div>
+					<div>
+						<h1>História</h1>
+						<br>
+						<h3>Cintia Biscaia iniciou sua trajetória como cabeleireira após já ter feito cursos na área de beleza. Em 2017, uma amiga a incentivou a abrir um salão e fez a proposta para que começassem o negócio, o que motivou Cintia a aceitar e dar início ao seu próprio salão.
+
+ Desde então, ela trabalha oferecendo serviços de cabelo e unhas, enquanto sua colaboradora, que também é sua filha, Ariane atua no salão como esteticista.</h3>
 					</div>
 				</div>
 			</div>

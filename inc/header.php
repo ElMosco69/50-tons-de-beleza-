@@ -48,7 +48,7 @@
           </li>
  
            <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
+            <a class="nav-link" href="/50-tons-de-beleza-/sobre.php">Sobre</a>
           </li>
 
         </ul>
@@ -92,7 +92,7 @@
         <ul class="navbar-nav nav-mobile align-items-center gap-2 text-center w-100">
           <li class="nav-item"><a class="nav-link" href="<?php echo BASEURL; ?>produtos/index.php">Agendamento</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo Link_Misterioso; ?>">Produtos</a></li>
-          <li class="nav-item"><a class="nav-link" href="<?php echo Link_Misterioso; ?>">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="/50-tons-de-beleza-/sobre.php">Sobre</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <i class="fa-solid fa-cart-shopping"></i> Carrinho
@@ -103,7 +103,7 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center justify-content-center gap-2"
                 href="<?php echo BASEURL; ?>inc/cadastro.php">
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> 
               </a>
             </li>
           <?php else : ?>
