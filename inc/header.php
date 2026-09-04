@@ -1,4 +1,8 @@
-<?php if (!isset($_SESSION)) session_start(); ?>
+<?php 
+
+
+
+?>
 <?php include ABSPATH . 'inc/auth.php'; ?>
 <!DOCTYPE html>
 <html>
@@ -73,7 +77,7 @@
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-center gap-2 justify-content-center"
                   href="<?php echo BASEURL; ?>inc/logout.php">
-                  <img src="<?php echo $avatar_url; ?>" alt="avatar" class="nav-avatar">
+                  <img src="<?php echo BASEURL; ?>img/house.png" alt="avatar" class="nav-avatar">
                   <span><?php echo htmlspecialchars($_SESSION['nome'] ?? $_SESSION['user']); ?></span>
                   <i class="fa-solid fa-arrow-right-from-bracket"></i>
                 </a>

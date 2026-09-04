@@ -36,7 +36,8 @@
                     
                 // verifica  se $user não está vazio
                 if (password_verify($senha, $password)) {
-                    if (!isset($_SESSION)) session_start();
+                    if (!isset($_SESSION)) session_start(); 
+                    
                     $_SESSION['message'] = "Bem vindo " . $nome . "!";
                     $_SESSION['type'] = 'info';
                     $_SESSION['id'] = $id;
@@ -44,6 +45,8 @@
                     $_SESSION['user'] = $user;
                     $_SESSION['foto'] = $foto; // pode ser vazio
                     // definir role: se existir coluna 'role' no DB use-a, senão trate 'admin1' como admin
+                
+        
                     if (!empty($dados['role'])) {
                         $_SESSION['role'] = $dados['role'];
                     } else {
